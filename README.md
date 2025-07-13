@@ -48,12 +48,6 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
 ### 4. Prepare the Dataset
 
 - Download the WDBC dataset from the [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
@@ -99,7 +93,8 @@ breast-cancer-classification/
 │   ├── data_preprocessing.py
 │   ├── model_training.py
 │   ├── evaluation_metrics.py
-│   └── model_interpretation.py
+|   ├── model_interpretation.py
+│   └── predict.py
 ├── results/
 │   ├── classification_report.csv
 │   ├── Confusion_Matrix.png
@@ -121,20 +116,6 @@ breast-cancer-classification/
 - Use other feature selection techniques (e.g., RFE, mutual info)  
 - Deploy using Flask or Streamlit  
 - Explore neural network baselines
-
----
-
-## 📚 References
-
-- [1] WHO, “Global Cancer Observatory, 2022,” [Online](https://gco.iarc.fr/)
-- [2] Biswas et al., “Multi-Model Machine Learning Approach,” *ICAC3*, 2024
-- [3] Bardou et al., “Breast Cancer Classification Using CNNs,” *IEEE Access*, 2018
-- [4] Reshan et al., “Ensemble Learning Techniques,” *Life*, 2023
-- [5] Khan et al., “Improved ML Framework for Breast Cancer,” *Procedia CS*, 2023
-- [6] Mishra et al., “Stepwise LDA & SVM for Breast Cancer,” *Measurement: Sensors*, 2023
-- [7] Rahman et al., “Stratified Sampling in Medical ML,” *Informatics in Medicine Unlocked*, 2024
-- [8] Jena & Sahoo, “Hybrid Feature & Ensemble Learning,” *Materials Today: Proceedings*, 2023
-- [9] Jain & Arora, “ML in Breast Cancer Diagnosis: A Review,” *BSPC*, 2023
 
 ---
 
