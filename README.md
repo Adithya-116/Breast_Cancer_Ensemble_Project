@@ -50,17 +50,21 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 ### 4. Prepare the Dataset
 
-- Download the WDBC dataset from the [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
-- Save it as `breast_cancer_dataset.csv` in the `data/` folder
+-The dataset (breast_cancer_dataset.csv) is already provided under the data/ directory in this repository.
 
-### 5. Run the Pipeline
+### 5. Run the Full Pipeline
+
+Execute the entire training and evaluation pipeline with:
 
 ```bash
-python src/preprocessing.py          # Clean and normalize data
-python src/train_models.py           # Train base models
-python src/ensemble_models.py        # Train Voting and Stacking classifiers
-python src/evaluation.py             # View evaluation metrics and plots
+python tasks/classification/run_classification_main.py
 ```
+
+This will:
+- Preprocess data
+- Train models
+- Evaluate performance
+- Save visualizations and reports under `results/`
 
 ### 6. Make Predictions
 
