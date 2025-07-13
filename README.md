@@ -50,7 +50,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 ### 4. Prepare the Dataset
 
--The dataset (breast_cancer_dataset.csv) is already provided under the data/ directory in this repository.
+The dataset (breast_cancer_dataset.csv) is already provided under the data/ directory in this repository.
 
 ### 5. Run the Full Pipeline
 
